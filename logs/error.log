@@ -1,0 +1,2 @@
+2016-11-19 14:50:10,841 ERROR TemplateEngine:1085 - [THYMELEAF][http-nio-1111-exec-10] Exception processing template "error": Exception evaluating SpringEL expression: "exception.message" (error:10)
+2016-11-19 14:50:15,802 ERROR TemplateEngine:1085 - [THYMELEAF][http-nio-1111-exec-2] Exception processing template "error": Exception evaluating SpringEL expression: "exception.message" (error:10)

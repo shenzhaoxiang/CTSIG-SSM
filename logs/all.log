@@ -1,0 +1,442 @@
+2016-11-19 14:48:15,760  INFO CtsigSpringbootApplication:48 - Starting CtsigSpringbootApplication on DESKTOP-0SQNBSM with PID 11632 (D:\Workspaces\IDEA_WS\ctsig-ssm\target\classes started by Shen in D:\Workspaces\IDEA_WS\ctsig-ssm)
+2016-11-19 14:48:15,766  INFO CtsigSpringbootApplication:665 - The following profiles are active: dev
+2016-11-19 14:48:16,269  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-11-19 14:48:16,279  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@147ed70f: startup date [Sat Nov 19 14:48:16 CST 2016]; root of context hierarchy
+2016-11-19 14:48:19,022  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 1111 (http)
+2016-11-19 14:48:19,209  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 2936 ms
+2016-11-19 14:48:19,449  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-19 14:48:19,456  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-19 14:48:19,457  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-19 14:48:19,457  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-19 14:48:19,458  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-19 14:48:20,310  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[GET || POST]}" onto public java.util.List<com.ctsig.ssm.domain.User> com.ctsig.ssm.web.UserController.getUserList()
+2016-11-19 14:48:20,312  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.ctsig.ssm.web.UserController.putUser(java.lang.Long,com.ctsig.ssm.domain.User)
+2016-11-19 14:48:20,312  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[POST]}" onto public java.lang.String com.ctsig.ssm.web.UserController.postUser(com.ctsig.ssm.domain.User)
+2016-11-19 14:48:20,312  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.ctsig.ssm.web.UserController.deleteUser(java.lang.Long)
+2016-11-19 14:48:20,313  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[GET]}" onto public com.ctsig.ssm.domain.User com.ctsig.ssm.web.UserController.getUser(java.lang.Long)
+2016-11-19 14:48:20,316  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-11-19 14:48:20,320  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-11-19 14:48:20,321  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-11-19 14:48:20,323  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-11-19 14:48:20,327  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-19 14:48:20,328  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-19 14:48:20,532  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@147ed70f: startup date [Sat Nov 19 14:48:16 CST 2016]; root of context hierarchy
+2016-11-19 14:48:20,624  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:48:20,625  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:48:20,644  INFO ExceptionHandlerExceptionResolver:271 - Detected @ExceptionHandler methods in globalExceptionHandler
+2016-11-19 14:48:20,674  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:48:21,324  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-11-19 14:48:21,335  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2016-11-19 14:48:21,336  INFO DocumentationPluginsBootstrapper:120 - Context refreshed
+2016-11-19 14:48:21,367  INFO DocumentationPluginsBootstrapper:123 - Found 1 custom documentation plugin(s)
+2016-11-19 14:48:21,381  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2016-11-19 14:48:21,626  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 1111 (http)
+2016-11-19 14:48:21,631  INFO CtsigSpringbootApplication:57 - Started CtsigSpringbootApplication in 6.601 seconds (JVM running for 7.967)
+2016-11-19 14:48:42,131  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2016-11-19 14:48:42,152  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2016-11-19 14:49:25,091  INFO CtsigSpringbootApplication:48 - Starting CtsigSpringbootApplication on DESKTOP-0SQNBSM with PID 7956 (D:\Workspaces\IDEA_WS\ctsig-ssm\target\classes started by Shen in D:\Workspaces\IDEA_WS\ctsig-ssm)
+2016-11-19 14:49:25,094  INFO CtsigSpringbootApplication:665 - The following profiles are active: dev
+2016-11-19 14:49:25,815  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-11-19 14:49:25,838  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@147ed70f: startup date [Sat Nov 19 14:49:25 CST 2016]; root of context hierarchy
+2016-11-19 14:49:28,521  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 1111 (http)
+2016-11-19 14:49:28,686  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 2852 ms
+2016-11-19 14:49:29,012  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-19 14:49:29,021  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-19 14:49:29,023  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-19 14:49:29,023  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-19 14:49:29,025  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-19 14:49:29,975  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[GET || POST]}" onto public java.util.List<com.ctsig.ssm.domain.User> com.ctsig.ssm.web.UserController.getUserList()
+2016-11-19 14:49:29,977  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[POST]}" onto public java.lang.String com.ctsig.ssm.web.UserController.postUser(com.ctsig.ssm.domain.User)
+2016-11-19 14:49:29,978  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.ctsig.ssm.web.UserController.deleteUser(java.lang.Long)
+2016-11-19 14:49:29,978  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[GET]}" onto public com.ctsig.ssm.domain.User com.ctsig.ssm.web.UserController.getUser(java.lang.Long)
+2016-11-19 14:49:29,978  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.ctsig.ssm.web.UserController.putUser(java.lang.Long,com.ctsig.ssm.domain.User)
+2016-11-19 14:49:29,984  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-11-19 14:49:29,997  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-11-19 14:49:29,999  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-11-19 14:49:30,003  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-11-19 14:49:30,013  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-19 14:49:30,021  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-19 14:49:30,312  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@147ed70f: startup date [Sat Nov 19 14:49:25 CST 2016]; root of context hierarchy
+2016-11-19 14:49:30,467  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:49:30,467  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:49:30,508  INFO ExceptionHandlerExceptionResolver:271 - Detected @ExceptionHandler methods in globalExceptionHandler
+2016-11-19 14:49:30,554  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:49:31,205  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-11-19 14:49:31,215  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2016-11-19 14:49:31,215  INFO DocumentationPluginsBootstrapper:120 - Context refreshed
+2016-11-19 14:49:31,494  INFO DocumentationPluginsBootstrapper:123 - Found 1 custom documentation plugin(s)
+2016-11-19 14:49:31,509  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2016-11-19 14:49:31,593  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 1111 (http)
+2016-11-19 14:49:31,597  INFO CtsigSpringbootApplication:57 - Started CtsigSpringbootApplication in 7.044 seconds (JVM running for 7.673)
+2016-11-19 14:49:35,444  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2016-11-19 14:49:35,464  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2016-11-19 14:50:10,517  INFO TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-11-19 14:50:10,571  INFO AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2016-11-19 14:50:10,573  INFO AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-11-19 14:50:10,574  INFO AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-11-19 14:50:10,574  INFO AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-11-19 14:50:10,580  INFO CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-11-19 14:50:10,581  INFO TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-11-19 14:50:10,841 ERROR TemplateEngine:1085 - [THYMELEAF][http-nio-1111-exec-10] Exception processing template "error": Exception evaluating SpringEL expression: "exception.message" (error:10)
+2016-11-19 14:50:15,802 ERROR TemplateEngine:1085 - [THYMELEAF][http-nio-1111-exec-2] Exception processing template "error": Exception evaluating SpringEL expression: "exception.message" (error:10)
+2016-11-19 14:52:26,073  INFO CtsigSpringbootApplication:48 - Starting CtsigSpringbootApplication on DESKTOP-0SQNBSM with PID 4596 (D:\Workspaces\IDEA_WS\ctsig-ssm\target\classes started by Shen in D:\Workspaces\IDEA_WS\ctsig-ssm)
+2016-11-19 14:52:26,077  INFO CtsigSpringbootApplication:665 - The following profiles are active: dev
+2016-11-19 14:52:26,192  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3901d134: startup date [Sat Nov 19 14:52:26 CST 2016]; root of context hierarchy
+2016-11-19 14:52:26,773  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-11-19 14:52:29,275  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 1111 (http)
+2016-11-19 14:52:29,476  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 3287 ms
+2016-11-19 14:52:29,685  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-19 14:52:29,690  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-19 14:52:29,691  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-19 14:52:29,691  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-19 14:52:29,692  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-19 14:52:30,473  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[GET || POST]}" onto public java.util.List<com.ctsig.ssm.domain.User> com.ctsig.ssm.web.UserController.getUserList()
+2016-11-19 14:52:30,474  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.ctsig.ssm.web.UserController.putUser(java.lang.Long,com.ctsig.ssm.domain.User)
+2016-11-19 14:52:30,475  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.ctsig.ssm.web.UserController.deleteUser(java.lang.Long)
+2016-11-19 14:52:30,476  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[GET]}" onto public com.ctsig.ssm.domain.User com.ctsig.ssm.web.UserController.getUser(java.lang.Long)
+2016-11-19 14:52:30,477  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[POST]}" onto public java.lang.String com.ctsig.ssm.web.UserController.postUser(com.ctsig.ssm.domain.User)
+2016-11-19 14:52:30,482  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-11-19 14:52:30,489  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-11-19 14:52:30,491  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-11-19 14:52:30,493  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-11-19 14:52:30,500  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-19 14:52:30,501  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-19 14:52:30,758  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3901d134: startup date [Sat Nov 19 14:52:26 CST 2016]; root of context hierarchy
+2016-11-19 14:52:30,879  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:52:30,880  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:52:30,905  INFO ExceptionHandlerExceptionResolver:271 - Detected @ExceptionHandler methods in globalExceptionHandler
+2016-11-19 14:52:30,929  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:52:31,144  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-11-19 14:52:31,155  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2016-11-19 14:52:31,155  INFO DocumentationPluginsBootstrapper:120 - Context refreshed
+2016-11-19 14:52:31,177  INFO DocumentationPluginsBootstrapper:123 - Found 1 custom documentation plugin(s)
+2016-11-19 14:52:31,189  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2016-11-19 14:52:31,259  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 1111 (http)
+2016-11-19 14:52:31,265  INFO CtsigSpringbootApplication:57 - Started CtsigSpringbootApplication in 5.893 seconds (JVM running for 6.846)
+2016-11-19 14:52:48,120  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2016-11-19 14:52:48,145  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2016-11-19 14:54:17,913  INFO CtsigSpringbootApplication:48 - Starting CtsigSpringbootApplication on DESKTOP-0SQNBSM with PID 748 (D:\Workspaces\IDEA_WS\ctsig-ssm\target\classes started by Shen in D:\Workspaces\IDEA_WS\ctsig-ssm)
+2016-11-19 14:54:17,917  INFO CtsigSpringbootApplication:665 - The following profiles are active: dev
+2016-11-19 14:54:17,989  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3901d134: startup date [Sat Nov 19 14:54:17 CST 2016]; root of context hierarchy
+2016-11-19 14:54:18,557  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-11-19 14:54:21,329  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 80 (http)
+2016-11-19 14:54:21,515  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 3531 ms
+2016-11-19 14:54:21,795  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-19 14:54:21,800  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-19 14:54:21,800  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-19 14:54:21,801  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-19 14:54:21,801  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-19 14:54:22,622  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[GET || POST]}" onto public java.util.List<com.ctsig.ssm.domain.User> com.ctsig.ssm.web.UserController.getUserList()
+2016-11-19 14:54:22,626  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[POST]}" onto public java.lang.String com.ctsig.ssm.web.UserController.postUser(com.ctsig.ssm.domain.User)
+2016-11-19 14:54:22,628  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[GET]}" onto public com.ctsig.ssm.domain.User com.ctsig.ssm.web.UserController.getUser(java.lang.Long)
+2016-11-19 14:54:22,628  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.ctsig.ssm.web.UserController.putUser(java.lang.Long,com.ctsig.ssm.domain.User)
+2016-11-19 14:54:22,629  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.ctsig.ssm.web.UserController.deleteUser(java.lang.Long)
+2016-11-19 14:54:22,630  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-11-19 14:54:22,637  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-11-19 14:54:22,638  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-11-19 14:54:22,639  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-11-19 14:54:22,642  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-19 14:54:22,643  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-19 14:54:22,855  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3901d134: startup date [Sat Nov 19 14:54:17 CST 2016]; root of context hierarchy
+2016-11-19 14:54:22,949  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:54:22,952  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:54:22,974  INFO ExceptionHandlerExceptionResolver:271 - Detected @ExceptionHandler methods in globalExceptionHandler
+2016-11-19 14:54:23,000  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:54:23,289  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-11-19 14:54:23,308  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2016-11-19 14:54:23,308  INFO DocumentationPluginsBootstrapper:120 - Context refreshed
+2016-11-19 14:54:23,342  INFO DocumentationPluginsBootstrapper:123 - Found 1 custom documentation plugin(s)
+2016-11-19 14:54:23,354  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2016-11-19 14:54:23,438  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 80 (http)
+2016-11-19 14:54:23,443  INFO CtsigSpringbootApplication:57 - Started CtsigSpringbootApplication in 6.156 seconds (JVM running for 6.845)
+2016-11-19 14:54:24,279  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2016-11-19 14:54:24,308  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2016-11-19 14:56:32,537  INFO CtsigSpringbootApplication:48 - Starting CtsigSpringbootApplication on DESKTOP-0SQNBSM with PID 9960 (D:\Workspaces\IDEA_WS\ctsig-ssm\target\classes started by Shen in D:\Workspaces\IDEA_WS\ctsig-ssm)
+2016-11-19 14:56:32,541  INFO CtsigSpringbootApplication:665 - The following profiles are active: dev
+2016-11-19 14:56:32,617  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3901d134: startup date [Sat Nov 19 14:56:32 CST 2016]; root of context hierarchy
+2016-11-19 14:56:33,067  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-11-19 14:56:35,699  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 80 (http)
+2016-11-19 14:56:35,861  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 3247 ms
+2016-11-19 14:56:36,111  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-19 14:56:36,116  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-19 14:56:36,117  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-19 14:56:36,118  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-19 14:56:36,119  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-19 14:56:36,835  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.ctsig.ssm.web.UserController.deleteUser(java.lang.Long)
+2016-11-19 14:56:36,836  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[POST]}" onto public java.lang.String com.ctsig.ssm.web.UserController.postUser(com.ctsig.ssm.domain.User)
+2016-11-19 14:56:36,838  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.ctsig.ssm.web.UserController.putUser(java.lang.Long,com.ctsig.ssm.domain.User)
+2016-11-19 14:56:36,838  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[GET || POST]}" onto public java.util.List<com.ctsig.ssm.domain.User> com.ctsig.ssm.web.UserController.getUserList()
+2016-11-19 14:56:36,839  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[GET]}" onto public com.ctsig.ssm.domain.User com.ctsig.ssm.web.UserController.getUser(java.lang.Long)
+2016-11-19 14:56:36,843  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-11-19 14:56:36,848  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-11-19 14:56:36,849  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-11-19 14:56:36,850  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-11-19 14:56:36,854  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-19 14:56:36,854  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-19 14:56:37,071  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3901d134: startup date [Sat Nov 19 14:56:32 CST 2016]; root of context hierarchy
+2016-11-19 14:56:37,175  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:56:37,176  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:56:37,197  INFO ExceptionHandlerExceptionResolver:271 - Detected @ExceptionHandler methods in globalExceptionHandler
+2016-11-19 14:56:37,224  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:56:37,405  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-11-19 14:56:37,416  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2016-11-19 14:56:37,417  INFO DocumentationPluginsBootstrapper:120 - Context refreshed
+2016-11-19 14:56:37,443  INFO DocumentationPluginsBootstrapper:123 - Found 1 custom documentation plugin(s)
+2016-11-19 14:56:37,459  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2016-11-19 14:56:37,547  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 80 (http)
+2016-11-19 14:56:37,553  INFO CtsigSpringbootApplication:57 - Started CtsigSpringbootApplication in 5.657 seconds (JVM running for 6.46)
+2016-11-19 14:56:40,855  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2016-11-19 14:56:40,879  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2016-11-19 14:57:44,634  INFO CtsigSpringbootApplication:48 - Starting CtsigSpringbootApplication on DESKTOP-0SQNBSM with PID 7296 (D:\Workspaces\IDEA_WS\ctsig-ssm\target\classes started by Shen in D:\Workspaces\IDEA_WS\ctsig-ssm)
+2016-11-19 14:57:44,644  INFO CtsigSpringbootApplication:665 - The following profiles are active: dev
+2016-11-19 14:57:44,735  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3901d134: startup date [Sat Nov 19 14:57:44 CST 2016]; root of context hierarchy
+2016-11-19 14:57:45,244  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-11-19 14:57:47,954  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 80 (http)
+2016-11-19 14:57:48,183  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 3453 ms
+2016-11-19 14:57:48,412  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-19 14:57:48,418  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-19 14:57:48,419  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-19 14:57:48,420  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-19 14:57:48,420  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-19 14:57:49,099  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[GET]}" onto public com.ctsig.ssm.domain.User com.ctsig.ssm.web.UserController.getUser(java.lang.Long)
+2016-11-19 14:57:49,101  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.ctsig.ssm.web.UserController.putUser(java.lang.Long,com.ctsig.ssm.domain.User)
+2016-11-19 14:57:49,102  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.ctsig.ssm.web.UserController.deleteUser(java.lang.Long)
+2016-11-19 14:57:49,102  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[GET || POST]}" onto public java.util.List<com.ctsig.ssm.domain.User> com.ctsig.ssm.web.UserController.getUserList()
+2016-11-19 14:57:49,102  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[POST]}" onto public java.lang.String com.ctsig.ssm.web.UserController.postUser(com.ctsig.ssm.domain.User)
+2016-11-19 14:57:49,104  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-11-19 14:57:49,109  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-11-19 14:57:49,110  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-11-19 14:57:49,112  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-11-19 14:57:49,116  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-19 14:57:49,117  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-19 14:57:49,318  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3901d134: startup date [Sat Nov 19 14:57:44 CST 2016]; root of context hierarchy
+2016-11-19 14:57:49,407  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:57:49,408  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:57:49,427  INFO ExceptionHandlerExceptionResolver:271 - Detected @ExceptionHandler methods in globalExceptionHandler
+2016-11-19 14:57:49,456  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:57:49,712  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-11-19 14:57:49,722  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2016-11-19 14:57:49,723  INFO DocumentationPluginsBootstrapper:120 - Context refreshed
+2016-11-19 14:57:49,748  INFO DocumentationPluginsBootstrapper:123 - Found 1 custom documentation plugin(s)
+2016-11-19 14:57:49,760  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2016-11-19 14:57:50,085  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 80 (http)
+2016-11-19 14:57:50,092  INFO CtsigSpringbootApplication:57 - Started CtsigSpringbootApplication in 6.14 seconds (JVM running for 6.714)
+2016-11-19 14:57:57,747  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2016-11-19 14:57:57,770  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2016-11-19 14:58:11,410  INFO CtsigSpringbootApplication:48 - Starting CtsigSpringbootApplication on DESKTOP-0SQNBSM with PID 3764 (D:\Workspaces\IDEA_WS\ctsig-ssm\target\classes started by Shen in D:\Workspaces\IDEA_WS\ctsig-ssm)
+2016-11-19 14:58:11,413  INFO CtsigSpringbootApplication:665 - The following profiles are active: dev
+2016-11-19 14:58:11,497  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3901d134: startup date [Sat Nov 19 14:58:11 CST 2016]; root of context hierarchy
+2016-11-19 14:58:11,854  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-11-19 14:58:14,951  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 80 (http)
+2016-11-19 14:58:15,121  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 3635 ms
+2016-11-19 14:58:15,396  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-19 14:58:15,411  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-19 14:58:15,419  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-19 14:58:15,420  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-19 14:58:15,422  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-19 14:58:16,751  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[POST]}" onto public java.lang.String com.ctsig.ssm.web.UserController.postUser(com.ctsig.ssm.domain.User)
+2016-11-19 14:58:16,753  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[GET]}" onto public com.ctsig.ssm.domain.User com.ctsig.ssm.web.UserController.getUser(java.lang.Long)
+2016-11-19 14:58:16,753  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.ctsig.ssm.web.UserController.putUser(java.lang.Long,com.ctsig.ssm.domain.User)
+2016-11-19 14:58:16,754  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.ctsig.ssm.web.UserController.deleteUser(java.lang.Long)
+2016-11-19 14:58:16,754  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[GET || POST]}" onto public java.util.List<com.ctsig.ssm.domain.User> com.ctsig.ssm.web.UserController.getUserList()
+2016-11-19 14:58:16,790  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-11-19 14:58:16,795  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-11-19 14:58:16,798  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-11-19 14:58:16,800  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-11-19 14:58:16,804  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-19 14:58:16,805  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-19 14:58:17,065  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3901d134: startup date [Sat Nov 19 14:58:11 CST 2016]; root of context hierarchy
+2016-11-19 14:58:17,162  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:58:17,163  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:58:17,188  INFO ExceptionHandlerExceptionResolver:271 - Detected @ExceptionHandler methods in globalExceptionHandler
+2016-11-19 14:58:17,219  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 14:58:17,406  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-11-19 14:58:17,420  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2016-11-19 14:58:17,420  INFO DocumentationPluginsBootstrapper:120 - Context refreshed
+2016-11-19 14:58:17,447  INFO DocumentationPluginsBootstrapper:123 - Found 1 custom documentation plugin(s)
+2016-11-19 14:58:17,467  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2016-11-19 14:58:17,555  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 80 (http)
+2016-11-19 14:58:17,564  INFO CtsigSpringbootApplication:57 - Started CtsigSpringbootApplication in 6.696 seconds (JVM running for 7.251)
+2016-11-19 14:58:18,782  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2016-11-19 14:58:18,816  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2016-11-19 15:17:26,362  INFO CtsigSpringbootApplication:48 - Starting CtsigSpringbootApplication on DESKTOP-0SQNBSM with PID 3168 (D:\Workspaces\IDEA_WS\ctsig-ssm\target\classes started by Shen in D:\Workspaces\IDEA_WS\ctsig-ssm)
+2016-11-19 15:17:26,365  INFO CtsigSpringbootApplication:665 - The following profiles are active: redis,jdbc,dev
+2016-11-19 15:17:26,848  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-11-19 15:17:27,003  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@124c278f: startup date [Sat Nov 19 15:17:26 CST 2016]; root of context hierarchy
+2016-11-19 15:17:30,005  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 80 (http)
+2016-11-19 15:17:30,307  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 3320 ms
+2016-11-19 15:17:30,584  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-19 15:17:30,589  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-19 15:17:30,592  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-19 15:17:30,593  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-19 15:17:30,594  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-19 15:17:31,294  INFO RequestMappingHandlerMapping:543 - Mapped "{[/hello]}" onto public java.lang.String com.ctsig.ssm.web.HelloController.hello(org.springframework.ui.ModelMap)
+2016-11-19 15:17:31,295  INFO RequestMappingHandlerMapping:543 - Mapped "{[/web/error]}" onto public java.lang.String com.ctsig.ssm.web.HelloController.hello() throws java.lang.Exception
+2016-11-19 15:17:31,299  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[POST]}" onto public java.lang.String com.ctsig.ssm.web.UserController.postUser(com.ctsig.ssm.domain.User)
+2016-11-19 15:17:31,300  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.ctsig.ssm.web.UserController.putUser(java.lang.Long,com.ctsig.ssm.domain.User)
+2016-11-19 15:17:31,300  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[GET || POST]}" onto public java.util.List<com.ctsig.ssm.domain.User> com.ctsig.ssm.web.UserController.getUserList()
+2016-11-19 15:17:31,301  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.ctsig.ssm.web.UserController.deleteUser(java.lang.Long)
+2016-11-19 15:17:31,302  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[GET]}" onto public com.ctsig.ssm.domain.User com.ctsig.ssm.web.UserController.getUser(java.lang.Long)
+2016-11-19 15:17:31,303  INFO RequestMappingHandlerMapping:543 - Mapped "{[/json/error]}" onto public java.lang.String com.ctsig.ssm.web.WorldController.exception() throws com.ctsig.ssm.exception.JsonException
+2016-11-19 15:17:31,303  INFO RequestMappingHandlerMapping:543 - Mapped "{[/world]}" onto public java.lang.String com.ctsig.ssm.web.WorldController.world()
+2016-11-19 15:17:31,304  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-11-19 15:17:31,308  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-11-19 15:17:31,310  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-11-19 15:17:31,311  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-11-19 15:17:31,315  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-19 15:17:31,316  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-19 15:17:31,533  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@124c278f: startup date [Sat Nov 19 15:17:26 CST 2016]; root of context hierarchy
+2016-11-19 15:17:31,650  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 15:17:31,650  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 15:17:31,669  INFO ExceptionHandlerExceptionResolver:271 - Detected @ExceptionHandler methods in globalExceptionHandler
+2016-11-19 15:17:31,715  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 15:17:32,684  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-11-19 15:17:32,702  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2016-11-19 15:17:32,702  INFO DocumentationPluginsBootstrapper:120 - Context refreshed
+2016-11-19 15:17:32,737  INFO DocumentationPluginsBootstrapper:123 - Found 1 custom documentation plugin(s)
+2016-11-19 15:17:33,017  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2016-11-19 15:17:33,085  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 15:17:33,112  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 15:17:33,119  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 15:17:33,135  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 15:17:33,146  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 15:17:33,150  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 15:17:33,159  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 15:17:33,164  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 15:17:33,188  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingGET_1
+2016-11-19 15:17:33,190  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingHEAD_1
+2016-11-19 15:17:33,193  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingPOST_1
+2016-11-19 15:17:33,198  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingPUT_1
+2016-11-19 15:17:33,204  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingPATCH_1
+2016-11-19 15:17:33,207  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingDELETE_1
+2016-11-19 15:17:33,209  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingOPTIONS_1
+2016-11-19 15:17:33,217  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingTRACE_1
+2016-11-19 15:17:33,514  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 80 (http)
+2016-11-19 15:17:33,519  INFO CtsigSpringbootApplication:57 - Started CtsigSpringbootApplication in 7.798 seconds (JVM running for 8.456)
+2016-11-19 15:17:45,411  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2016-11-19 15:17:45,430  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2016-11-19 15:17:45,473  INFO TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-11-19 15:17:45,516  INFO AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2016-11-19 15:17:45,517  INFO AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-11-19 15:17:45,517  INFO AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-11-19 15:17:45,517  INFO AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-11-19 15:17:45,527  INFO CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-11-19 15:17:45,527  INFO TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-11-19 17:51:10,345  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ctsig.ssm.MybatisTest], using SpringBootContextLoader
+2016-11-19 17:51:10,369  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.ctsig.ssm.MybatisTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2016-11-19 17:51:10,373  INFO AnnotationConfigContextLoaderUtils:81 - Could not detect default configuration classes for test class [com.ctsig.ssm.MybatisTest]: MybatisTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2016-11-19 17:51:10,748  INFO SpringBootTestContextBootstrapper:177 - Found @SpringBootConfiguration com.ctsig.ssm.CtsigSpringbootApplication for test class com.ctsig.ssm.MybatisTest
+2016-11-19 17:51:10,779  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-11-19 17:51:10,813  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2b546384, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5d740a0f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@214b199c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@20d3d15a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2893de87, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55ca8de8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2c34f934, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@12d3a4e9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@240237d2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@25a65b77, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2ed0fbae, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@212bf671]
+2016-11-19 17:51:11,552  INFO MybatisTest:48 - Starting MybatisTest on DESKTOP-0SQNBSM with PID 5844 (started by Shen in D:\Workspaces\IDEA_WS\ctsig-ssm)
+2016-11-19 17:51:11,553  INFO MybatisTest:665 - The following profiles are active: redis,jdbc,mail,dev
+2016-11-19 17:51:12,005  INFO GenericWebApplicationContext:582 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6fdbe764: startup date [Sat Nov 19 17:51:12 CST 2016]; root of context hierarchy
+2016-11-19 17:51:12,007  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-11-19 17:51:14,758  INFO RepositoryConfigurationDelegate:170 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2016-11-19 17:51:14,883  INFO RepositoryConfigurationDelegate:170 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2016-11-19 17:51:15,978  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$592bb85d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-19 17:51:17,953  INFO RequestMappingHandlerMapping:543 - Mapped "{[/index]}" onto public java.lang.String com.ctsig.ssm.web.HelloController.index(org.springframework.ui.ModelMap)
+2016-11-19 17:51:17,955  INFO RequestMappingHandlerMapping:543 - Mapped "{[/web/error]}" onto public java.lang.String com.ctsig.ssm.web.HelloController.hello() throws java.lang.Exception
+2016-11-19 17:51:17,956  INFO RequestMappingHandlerMapping:543 - Mapped "{[/hello]}" onto public java.lang.String com.ctsig.ssm.web.HelloController.hello(org.springframework.ui.ModelMap)
+2016-11-19 17:51:17,964  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.ctsig.ssm.web.UserController.putUser(java.lang.Long,com.ctsig.ssm.domain.User)
+2016-11-19 17:51:17,966  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[GET]}" onto public com.ctsig.ssm.domain.User com.ctsig.ssm.web.UserController.getUser(java.lang.Long)
+2016-11-19 17:51:17,967  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.ctsig.ssm.web.UserController.deleteUser(java.lang.Long)
+2016-11-19 17:51:17,967  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[POST]}" onto public java.lang.String com.ctsig.ssm.web.UserController.postUser(com.ctsig.ssm.domain.User)
+2016-11-19 17:51:17,968  INFO RequestMappingHandlerMapping:543 - Mapped "{[/users/],methods=[GET || POST]}" onto public java.util.List<com.ctsig.ssm.domain.User> com.ctsig.ssm.web.UserController.getUserList()
+2016-11-19 17:51:17,972  INFO RequestMappingHandlerMapping:543 - Mapped "{[/json/error]}" onto public java.lang.String com.ctsig.ssm.web.WorldController.exception() throws com.ctsig.ssm.exception.JsonException
+2016-11-19 17:51:17,973  INFO RequestMappingHandlerMapping:543 - Mapped "{[/world]}" onto public java.lang.String com.ctsig.ssm.web.WorldController.world()
+2016-11-19 17:51:17,976  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-11-19 17:51:17,982  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-11-19 17:51:17,984  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-11-19 17:51:17,985  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-11-19 17:51:17,993  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-19 17:51:17,994  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-19 17:51:19,185  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6fdbe764: startup date [Sat Nov 19 17:51:12 CST 2016]; root of context hierarchy
+2016-11-19 17:51:19,370  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 17:51:19,371  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 17:51:19,436  INFO ExceptionHandlerExceptionResolver:271 - Detected @ExceptionHandler methods in globalExceptionHandler
+2016-11-19 17:51:19,549  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-19 17:51:21,473  INFO cluster:71 - Cluster created with settings {hosts=[101.200.209.93:9888], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2016-11-19 17:51:21,474  INFO cluster:71 - Adding discovered server 101.200.209.93:9888 to client view of cluster
+2016-11-19 17:51:21,640  INFO connection:71 - Opened connection [connectionId{localValue:1, serverValue:96}] to 101.200.209.93:9888
+2016-11-19 17:51:21,653  INFO cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=101.200.209.93:9888, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[2, 6, 12]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, roundTripTimeNanos=11808685}
+2016-11-19 17:51:21,654  INFO cluster:71 - Discovered cluster type of STANDALONE
+2016-11-19 17:51:22,164  INFO AuthenticationManagerConfiguration:169 - 
+
+Using default security password: 6541bb57-2bd2-48d4-9662-3c6efbcb8d89
+
+2016-11-19 17:51:22,270  INFO DefaultSecurityFilterChain:43 - Creating filter chain: Ant [pattern='/css/**'], []
+2016-11-19 17:51:22,271  INFO DefaultSecurityFilterChain:43 - Creating filter chain: Ant [pattern='/js/**'], []
+2016-11-19 17:51:22,271  INFO DefaultSecurityFilterChain:43 - Creating filter chain: Ant [pattern='/images/**'], []
+2016-11-19 17:51:22,271  INFO DefaultSecurityFilterChain:43 - Creating filter chain: Ant [pattern='/webjars/**'], []
+2016-11-19 17:51:22,271  INFO DefaultSecurityFilterChain:43 - Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-11-19 17:51:22,271  INFO DefaultSecurityFilterChain:43 - Creating filter chain: Ant [pattern='/error'], []
+2016-11-19 17:51:22,408  INFO DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5847010, org.springframework.security.web.context.SecurityContextPersistenceFilter@34cfdd84, org.springframework.security.web.header.HeaderWriterFilter@38af386e, org.springframework.security.web.authentication.logout.LogoutFilter@2a8e30e3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@115a7e51, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@320e179f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a1d926b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ad9d5be, org.springframework.security.web.session.SessionManagementFilter@78aa1753, org.springframework.security.web.access.ExceptionTranslationFilter@74d53d63, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3023f157]
+2016-11-19 17:51:22,746  WARN RedisStarterDeprecationWarningAutoConfiguration:43 - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2016-11-19 17:51:22,830  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2016-11-19 17:51:22,830  INFO DocumentationPluginsBootstrapper:120 - Context refreshed
+2016-11-19 17:51:22,864  INFO DocumentationPluginsBootstrapper:123 - Found 1 custom documentation plugin(s)
+2016-11-19 17:51:22,880  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2016-11-19 17:51:22,941  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:22,980  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:22,991  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:22,995  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,002  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,006  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,011  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,014  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,037  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingGET_1
+2016-11-19 17:51:23,039  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingHEAD_1
+2016-11-19 17:51:23,041  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingPOST_1
+2016-11-19 17:51:23,048  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingPUT_1
+2016-11-19 17:51:23,054  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingPATCH_1
+2016-11-19 17:51:23,056  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingDELETE_1
+2016-11-19 17:51:23,059  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingOPTIONS_1
+2016-11-19 17:51:23,061  INFO CachingOperationNameGenerator:40 - Generating unique operation named: helloUsingTRACE_1
+2016-11-19 17:51:23,064  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,067  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,071  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,074  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,080  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,086  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,091  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,100  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2016-11-19 17:51:23,324  INFO MybatisTest:57 - Started MybatisTest in 12.399 seconds (JVM running for 15.437)
+2016-11-19 17:51:23,771  INFO TransactionContext:101 - Began transaction (1) for test context [DefaultTestContext@515d615 testClass = MybatisTest, testInstance = com.ctsig.ssm.MybatisTest@488b46da, testMethod = testUserMapper@MybatisTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7c37ac3c testClass = MybatisTest, locations = '{}', classes = '{class com.ctsig.ssm.CtsigSpringbootApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@6c3708b3, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@67784306, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3d99d22e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@5e777b0]; rollback [true]
+2016-11-19 17:51:23,867  INFO TransactionContext:136 - Rolled back transaction for test context [DefaultTestContext@515d615 testClass = MybatisTest, testInstance = com.ctsig.ssm.MybatisTest@488b46da, testMethod = testUserMapper@MybatisTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7c37ac3c testClass = MybatisTest, locations = '{}', classes = '{class com.ctsig.ssm.CtsigSpringbootApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@6c3708b3, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@67784306, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3d99d22e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2016-11-19 17:51:23,871  INFO GenericWebApplicationContext:987 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6fdbe764: startup date [Sat Nov 19 17:51:12 CST 2016]; root of context hierarchy
+2016-11-19 17:51:23,874  INFO DefaultLifecycleProcessor:356 - Stopping beans in phase 2147483647
